@@ -63,18 +63,30 @@
     ul.header {
         color: #fff;
         font-size: 20pt;
-        list-style-image: url(check_icon.png);
+        list-style-image: url(img/check_icon.png);
         padding: 0px 0px 0px 80px;
     }
 
-    ul.pluses {
-        list-style-image: url(plus_icon.png);
-    }
-
+    /*
     li {
         padding: -16px 20px 0 20px;
     }
+*/
 
+    /* style for pluses list */
+    .pluses_list {
+    list-style-type: none;
+    margin-left:0px;
+    padding-left:0px;
+    display:table;
+    }
+    .pluses_list img,
+    .pluses_list p {
+    text-align: left;
+    display: table-cell;
+  vertical-align:middle;
+    padding: 0 5px 0 10px;
+    }
 
     #row_dark {
         background-color: #445162;
