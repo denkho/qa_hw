@@ -1,0 +1,430 @@
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: 200;
+    color: #333333; 
+    width: 1280px;
+    margin: 0 0 0 0;
+}
+
+/* POSITIONING */
+#row_dark {
+    background-color: #445162;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#row_dark.header {
+    background-color: #445162;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+#row_light {
+    background-color: #f5f5f5;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer #row_light {
+    padding: 5px;
+}
+
+footer #row_light p {
+    color: #445162;
+    font-size: 12px;
+    text-align: center;
+}
+
+#row_white {
+    background-color: #fff;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+#wrapper {
+    display: flex;
+}
+
+#left {
+    width: 50%;
+    margin-left: 50px;
+}
+
+#right {
+    width: 50%;
+    margin-right: 50px;
+}
+
+
+
+#img_right_header {
+    float: right;
+    margin: 50px 50px 0 50px;
+}
+
+/* TEXTS */
+h1 {
+    font-size: 60px;
+    color: #fff; 
+    font-weight: 200;
+    margin: 0 0 0 0;
+    padding: 50px 0px 40px 50px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #445161;
+    font-weight: 200;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0px 50px 30px 50px;
+}
+
+h2.inversed {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 0 0;
+    padding: 0px 50px 30px 50px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 200;
+    color: #445161;
+    margin: 0 0 0 0; 
+    padding: 0px 50px 24px 50px;
+}
+
+h3.inversed {
+    font-size: 24px;
+    font-weight: 200;
+    color: #fff; 
+    margin: 0 0 0 0;
+    padding: 0px 50px 24px 50px;
+}
+
+p {
+    font-size: 16px;
+    margin: 0 0 0 0;
+    padding: 0px 50px 16px 50px;
+    
+}
+
+ul.header {
+    color: #fff;
+    list-style-image: url(img/check_icon.png);
+    padding: 0px 0px 0px 80px;
+}
+
+
+li {
+    font-size: 20px;
+}
+
+/* About block*/
+
+#about_wrapper {
+    display: flex;
+}
+
+#about_left {
+    width: 70%;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+#about_right {
+    width: 30%;
+    margin-right: 50px;
+}
+
+#img_right {
+    float: right;
+    margin: 0;
+}
+
+h2.left {
+    text-align: left;
+}
+
+
+/* style for pluses list */
+.pluses_list {
+    list-style-type: none;
+    margin-left:0px;
+    padding-left:0px;
+    display:table;
+}
+.pluses_list img,
+.pluses_list p {
+    text-align: left;
+    display: table-cell;
+    vertical-align:middle;
+    padding: 0 5px 30px 10px;
+}
+
+/* style for screenshots and reviews */
+.screenshots_list {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 20px 30px 0;
+}
+
+.screenshots_list .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 0 1 auto;
+}
+
+.screenshots_list .icon {
+    margin-right: 10px;
+}
+
+.screenshots_list .text h3 {
+    margin-top: 0;
+}
+
+
+
+/* Figures for block REVIEWS */
+/* BUBBLE */
+.talkbubble {
+    position: relative; 
+    float: right;   
+    padding: 10px;
+    border-radius: 5px;
+    border: solid #ebebeb;
+    background: #ebebeb;
+    width: 85%;
+  }
+  
+  .talkbubble:before {
+    content:"";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    
+    border-top: 13px solid transparent;
+    border-right: 26px solid #ebebeb;
+    border-bottom: 13px solid transparent;
+  }
+  
+  .talkbubble p {
+    position: inherit;
+    width: inherit;
+    height: inherit;
+    background: inherit;
+    font-style: italic;
+    
+    margin: 0;
+    padding: 0;
+    
+    border: none;
+    resize: none;
+  }
+
+/* CIRCLE */
+  .circle {
+    width: 100px; 
+    height: 100px;
+    background: #445161;
+    border-radius: 50%;
+    margin-left: 30px;
+    }
+
+/* TO STYLE NAME IN THE REVIEWS*/
+.name_for_buble {
+    font-size: 14px;
+    text-align: left;
+    color: #989898;
+}
+
+/* BUY IT NOW Block*/
+
+
+#price_box{
+    background: #445161;
+    width: 300px;
+    margin: 2% auto;
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+    border: 1px solid #445161;
+    border-radius: 7px;
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#name h3.inversed{
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+
+#price p {
+    background: #fff;
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#information ol li {
+    position: relative;
+    font-size: 14px;
+    color:#fff;
+    padding: 0 10px 10px 10px;
+}
+
+
+#button_container {
+    background-color: #445161;
+    position: relative;
+    overflow: hidden;
+}
+
+/* BUTTON */
+.buy {
+    background-color: #fff;
+    border: 0px;
+    border-radius: 7px;
+    width: 260px;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #445161;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* CONTACT FORM */
+
+
+.left_right_contact {
+    width: auto;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact_form {
+    display: inline-block;
+    width: 500px;
+    margin-left: 200px;
+}
+
+form {
+    align-items: center;
+    text-align: center;
+}
+
+.input_box {
+    height: 50px; 
+    width: 100%; 
+    font-size: 16px;
+    margin-bottom: 20px; 
+  }
+
+  .input_box input,
+  .input_box textarea {
+    height: 100%; 
+    width: 100%;
+    border: none; 
+    border-radius: 5px; 
+    background: #fff;
+    font-size: 16px; 
+    padding: 0 20px; 
+  }
+
+  .input_box textarea {
+    resize: none;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .message_box {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .button {
+    display: inline-block;
+  }
+  
+  .button input[type="button"] {
+    width: 140px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 7px;
+    transition: 0.2s; 
+  }
+
+  .button input[type="button"]:hover {
+    background: #f5f5f5;
+  }
+
+/*CONTACT INFO*/
+
+.contact_information {
+    width: 400px;
+    height: 100%;
+    color: #fff;
+    padding-left: 40px;
+}
+
+/* style for screenshots and reviews */
+.contacts_list {
+    display: inline-block;
+    width: 100%;
+    padding: 0 20px 10px 0;
+}
+
+.contacts_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+.contacts_text {
+    display: inline-block;
+    margin-top: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.contacts_text p {
+    padding: 0;
+}
+
+
+/* Social media icons*/
+
+.social_container {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.social_media {
+    display: inline-block;
+}
